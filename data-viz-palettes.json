@@ -1,0 +1,2422 @@
+{
+  "title": "Data-visualisation categorical palettes (5-colour)",
+  "source": "coolors.co/generate (random generation, scored & ranked)",
+  "generatedAt": "2026-05-30T11:36:09.863Z",
+  "count": 100,
+  "suitableCount": 24,
+  "cvdSafeCount": 13,
+  "suitabilityFloors": {
+    "minDeltaE2000": 12,
+    "lightnessMin": 15,
+    "lightnessMax": 92
+  },
+  "criteria": {
+    "distinctness": "min pairwise CIEDE2000 across the 5 colours; higher = categories easier to tell apart",
+    "harmony": "hue evenness around the wheel minus clashy near-hue/far-lightness pairs (sentiment proxy)",
+    "lightnessBalance": "penalises large CIELAB L* spread (categorical wants similar salience)",
+    "chromaBalance": "vivid enough to distinguish, not garish, consistent chroma",
+    "cvd": "deuteranopia/protanopia simulated (Machado 2009); safe = min ΔE ≥ 13 under both"
+  },
+  "palettes": [
+    {
+      "id": "001",
+      "name": "amber-cyan-001",
+      "colors": ["#fb5012", "#01fdf6", "#cbbaed", "#e9df00", "#03fcba"],
+      "coolorsUrl": "https://coolors.co/fb5012-01fdf6-cbbaed-e9df00-03fcba",
+      "suitable": true,
+      "scores": {
+        "composite": 0.438,
+        "minDeltaE2000": 15.5,
+        "distinctness": 0,
+        "harmony": 0.844,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.792,
+        "lightnessRange": [58.3, 90.3],
+        "meanChroma": 64.8,
+        "contrastVsWhite": 1.28,
+        "contrastVsBlack": 6.26,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 7.1,
+          "protanopiaMinDeltaE": 16.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "002",
+      "name": "amber-orange-002",
+      "colors": ["#fbaf00", "#ffd639", "#ffa3af", "#007cbe", "#00af54"],
+      "coolorsUrl": "https://coolors.co/fbaf00-ffd639-ffa3af-007cbe-00af54",
+      "suitable": true,
+      "scores": {
+        "composite": 0.431,
+        "minDeltaE2000": 12.1,
+        "distinctness": 0,
+        "harmony": 0.812,
+        "lightnessBalance": 0.952,
+        "chromaBalance": 0.837,
+        "lightnessRange": [49.7, 86.8],
+        "meanChroma": 61.2,
+        "contrastVsWhite": 1.41,
+        "contrastVsBlack": 4.63,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 6.1,
+          "protanopiaMinDeltaE": 8.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "003",
+      "name": "amber-teal-003",
+      "colors": ["#23f0c7", "#ef767a", "#7d7abc", "#6457a6", "#ffe347"],
+      "coolorsUrl": "https://coolors.co/23f0c7-ef767a-7d7abc-6457a6-ffe347",
+      "suitable": true,
+      "scores": {
+        "composite": 0.421,
+        "minDeltaE2000": 12.6,
+        "distinctness": 0,
+        "harmony": 0.811,
+        "lightnessBalance": 0.7,
+        "chromaBalance": 0.89,
+        "lightnessRange": [41.7, 90.2],
+        "meanChroma": 53.7,
+        "contrastVsWhite": 1.29,
+        "contrastVsBlack": 3.46,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 12.2,
+          "protanopiaMinDeltaE": 12.4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "004",
+      "name": "amber-orange-004",
+      "colors": ["#5bc0eb", "#fde74c", "#9bc53d", "#e55934", "#fa7921"],
+      "coolorsUrl": "https://coolors.co/5bc0eb-fde74c-9bc53d-e55934-fa7921",
+      "suitable": true,
+      "scores": {
+        "composite": 0.419,
+        "minDeltaE2000": 12.6,
+        "distinctness": 0,
+        "harmony": 0.704,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.858,
+        "lightnessRange": [56.1, 91],
+        "meanChroma": 65.8,
+        "contrastVsWhite": 1.26,
+        "contrastVsBlack": 5.81,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 4.6,
+          "protanopiaMinDeltaE": 10.1,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "005",
+      "name": "sky-amber-005",
+      "colors": ["#42cafd", "#66b3ba", "#8eb19d", "#f6efa6", "#f0d2d1"],
+      "coolorsUrl": "https://coolors.co/42cafd-66b3ba-8eb19d-f6efa6-f0d2d1",
+      "suitable": false,
+      "scores": {
+        "composite": 0.408,
+        "minDeltaE2000": 12.9,
+        "distinctness": 0,
+        "harmony": 0.809,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.512,
+        "lightnessRange": [68.5, 93.5],
+        "meanChroma": 26.2,
+        "contrastVsWhite": 1.18,
+        "contrastVsBlack": 8.72,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 12.8,
+          "protanopiaMinDeltaE": 11.9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "006",
+      "name": "orange-cyan-006",
+      "colors": ["#f08700", "#f49f0a", "#efca08", "#00a6a6", "#bbdef0"],
+      "coolorsUrl": "https://coolors.co/f08700-f49f0a-efca08-00a6a6-bbdef0",
+      "suitable": false,
+      "scores": {
+        "composite": 0.397,
+        "minDeltaE2000": 8,
+        "distinctness": 0,
+        "harmony": 0.668,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.754,
+        "lightnessRange": [61.7, 86.6],
+        "meanChroma": 58.4,
+        "contrastVsWhite": 1.42,
+        "contrastVsBlack": 7.01,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 4,
+          "protanopiaMinDeltaE": 5.9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "007",
+      "name": "orange-violet-007",
+      "colors": ["#c200fb", "#ec0868", "#fc2f00", "#ec7d10", "#ffbc0a"],
+      "coolorsUrl": "https://coolors.co/c200fb-ec0868-fc2f00-ec7d10-ffbc0a",
+      "suitable": true,
+      "scores": {
+        "composite": 0.396,
+        "minDeltaE2000": 18,
+        "distinctness": 0,
+        "harmony": 0.581,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.866,
+        "lightnessRange": [50, 80.3],
+        "meanChroma": 91.1,
+        "contrastVsWhite": 1.69,
+        "contrastVsBlack": 4.69,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 5.5,
+          "protanopiaMinDeltaE": 14.9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "008",
+      "name": "indigo-green-008",
+      "colors": ["#61e294", "#7bcdba", "#9799ca", "#bd93d8", "#b47aea"],
+      "coolorsUrl": "https://coolors.co/61e294-7bcdba-9799ca-bd93d8-b47aea",
+      "suitable": false,
+      "scores": {
+        "composite": 0.388,
+        "minDeltaE2000": 8.8,
+        "distinctness": 0,
+        "harmony": 0.629,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.75,
+        "lightnessRange": [61.3, 81.3],
+        "meanChroma": 44.5,
+        "contrastVsWhite": 1.64,
+        "contrastVsBlack": 6.91,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 2.9,
+          "protanopiaMinDeltaE": 2.9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "009",
+      "name": "orange-amber-009",
+      "colors": ["#086788", "#07a0c3", "#f0c808", "#fff1d0", "#dd1c1a"],
+      "coolorsUrl": "https://coolors.co/086788-07a0c3-f0c808-fff1d0-dd1c1a",
+      "suitable": false,
+      "scores": {
+        "composite": 0.386,
+        "minDeltaE2000": 21.1,
+        "distinctness": 0,
+        "harmony": 0.683,
+        "lightnessBalance": 0.555,
+        "chromaBalance": 0.714,
+        "lightnessRange": [40.5, 95.5],
+        "meanChroma": 49.9,
+        "contrastVsWhite": 1.12,
+        "contrastVsBlack": 3.31,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 19.8,
+          "protanopiaMinDeltaE": 20.6,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "010",
+      "name": "amber-cyan-010",
+      "colors": ["#e4572e", "#17bebb", "#ffc914", "#2e282a", "#76b041"],
+      "coolorsUrl": "https://coolors.co/e4572e-17bebb-ffc914-2e282a-76b041",
+      "suitable": true,
+      "scores": {
+        "composite": 0.384,
+        "minDeltaE2000": 28.9,
+        "distinctness": 0.181,
+        "harmony": 0.773,
+        "lightnessBalance": 0.296,
+        "chromaBalance": 0.748,
+        "lightnessRange": [16.8, 83.5],
+        "meanChroma": 52.2,
+        "contrastVsWhite": 1.54,
+        "contrastVsBlack": 1.45,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 5.2,
+          "protanopiaMinDeltaE": 11.5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "011",
+      "name": "indigo-orange-011",
+      "colors": ["#731dd8", "#48a9a6", "#e4dfda", "#d4b483", "#c1666b"],
+      "coolorsUrl": "https://coolors.co/731dd8-48a9a6-e4dfda-d4b483-c1666b",
+      "suitable": true,
+      "scores": {
+        "composite": 0.377,
+        "minDeltaE2000": 18.1,
+        "distinctness": 0,
+        "harmony": 0.794,
+        "lightnessBalance": 0.618,
+        "chromaBalance": 0.538,
+        "lightnessRange": [36.9, 89.1],
+        "meanChroma": 41.1,
+        "contrastVsWhite": 1.32,
+        "contrastVsBlack": 2.9,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 16.9,
+          "protanopiaMinDeltaE": 16.9,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "012",
+      "name": "orange-red-012",
+      "colors": ["#2e86ab", "#a23b72", "#f18f01", "#c73e1d", "#3b1f2b"],
+      "coolorsUrl": "https://coolors.co/2e86ab-a23b72-f18f01-c73e1d-3b1f2b",
+      "suitable": true,
+      "scores": {
+        "composite": 0.372,
+        "minDeltaE2000": 23.7,
+        "distinctness": 0.045,
+        "harmony": 0.557,
+        "lightnessBalance": 0.614,
+        "chromaBalance": 0.744,
+        "lightnessRange": [15.9, 68.3],
+        "meanChroma": 49.2,
+        "contrastVsWhite": 2.42,
+        "contrastVsBlack": 1.42,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 15.7,
+          "protanopiaMinDeltaE": 18.2,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "013",
+      "name": "teal-cyan-013",
+      "colors": ["#048a81", "#06d6a0", "#54c6eb", "#8a89c0", "#cda2ab"],
+      "coolorsUrl": "https://coolors.co/048a81-06d6a0-54c6eb-8a89c0-cda2ab",
+      "suitable": true,
+      "scores": {
+        "composite": 0.37,
+        "minDeltaE2000": 21.6,
+        "distinctness": 0,
+        "harmony": 0.629,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.628,
+        "lightnessRange": [51.6, 76.5],
+        "meanChroma": 35,
+        "contrastVsWhite": 1.89,
+        "contrastVsBlack": 4.96,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 5.8,
+          "protanopiaMinDeltaE": 12.9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "014",
+      "name": "amber-cyan-014",
+      "colors": ["#084c61", "#db504a", "#e3b505", "#4f6d7a", "#56a3a6"],
+      "coolorsUrl": "https://coolors.co/084c61-db504a-e3b505-4f6d7a-56a3a6",
+      "suitable": true,
+      "scores": {
+        "composite": 0.37,
+        "minDeltaE2000": 13.2,
+        "distinctness": 0,
+        "harmony": 0.726,
+        "lightnessBalance": 0.754,
+        "chromaBalance": 0.591,
+        "lightnessRange": [29.6, 75.7],
+        "meanChroma": 39.9,
+        "contrastVsWhite": 1.93,
+        "contrastVsBlack": 2.22,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 13.5,
+          "protanopiaMinDeltaE": 12.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "015",
+      "name": "cyan-green-015",
+      "colors": ["#7a5c58", "#8d80ad", "#99b2dd", "#9dfff9", "#64f58d"],
+      "coolorsUrl": "https://coolors.co/7a5c58-8d80ad-99b2dd-9dfff9-64f58d",
+      "suitable": false,
+      "scores": {
+        "composite": 0.367,
+        "minDeltaE2000": 18,
+        "distinctness": 0,
+        "harmony": 0.844,
+        "lightnessBalance": 0.62,
+        "chromaBalance": 0.543,
+        "lightnessRange": [42, 94.1],
+        "meanChroma": 33.4,
+        "contrastVsWhite": 1.16,
+        "contrastVsBlack": 3.5,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 12.7,
+          "protanopiaMinDeltaE": 14.1,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "016",
+      "name": "orange-green-016",
+      "colors": ["#e6c79c", "#cddfa0", "#6fd08c", "#7b9ea8", "#78586f"],
+      "coolorsUrl": "https://coolors.co/e6c79c-cddfa0-6fd08c-7b9ea8-78586f",
+      "suitable": true,
+      "scores": {
+        "composite": 0.364,
+        "minDeltaE2000": 14.7,
+        "distinctness": 0,
+        "harmony": 0.836,
+        "lightnessBalance": 0.783,
+        "chromaBalance": 0.531,
+        "lightnessRange": [41.4, 86.2],
+        "meanChroma": 28.4,
+        "contrastVsWhite": 1.43,
+        "contrastVsBlack": 3.42,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 2.2,
+          "protanopiaMinDeltaE": 3.2,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "017",
+      "name": "sky-teal-017",
+      "colors": ["#eccbd9", "#e1eff6", "#97d2fb", "#83bcff", "#80ffe8"],
+      "coolorsUrl": "https://coolors.co/eccbd9-e1eff6-97d2fb-83bcff-80ffe8",
+      "suitable": false,
+      "scores": {
+        "composite": 0.358,
+        "minDeltaE2000": 7.1,
+        "distinctness": 0,
+        "harmony": 0.679,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.48,
+        "lightnessRange": [74.8, 93.6],
+        "meanChroma": 25.4,
+        "contrastVsWhite": 1.17,
+        "contrastVsBlack": 10.6,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 2.4,
+          "protanopiaMinDeltaE": 6.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "018",
+      "name": "orange-orange-018",
+      "colors": ["#fcefef", "#7fd8be", "#a1fcdf", "#fcd29f", "#fcab64"],
+      "coolorsUrl": "https://coolors.co/fcefef-7fd8be-a1fcdf-fcd29f-fcab64",
+      "suitable": false,
+      "scores": {
+        "composite": 0.357,
+        "minDeltaE2000": 8.1,
+        "distinctness": 0,
+        "harmony": 0.623,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.552,
+        "lightnessRange": [76.5, 95.4],
+        "meanChroma": 31.3,
+        "contrastVsWhite": 1.12,
+        "contrastVsBlack": 11.15,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 2.8,
+          "protanopiaMinDeltaE": 7.5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "019",
+      "name": "blue-pink-019",
+      "colors": ["#595457", "#710627", "#9e1946", "#de0d92", "#4d6cfa"],
+      "coolorsUrl": "https://coolors.co/595457-710627-9e1946-de0d92-4d6cfa",
+      "suitable": false,
+      "scores": {
+        "composite": 0.357,
+        "minDeltaE2000": 9.9,
+        "distinctness": 0,
+        "harmony": 0.477,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.745,
+        "lightnessRange": [23, 50.9],
+        "meanChroma": 53.1,
+        "contrastVsWhite": 4.34,
+        "contrastVsBlack": 1.76,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 10,
+          "protanopiaMinDeltaE": 7.1,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "020",
+      "name": "teal-indigo-020",
+      "colors": ["#4effef", "#73a6ad", "#9b97b2", "#d8a7ca", "#c7b8ea"],
+      "coolorsUrl": "https://coolors.co/4effef-73a6ad-9b97b2-d8a7ca-c7b8ea",
+      "suitable": false,
+      "scores": {
+        "composite": 0.353,
+        "minDeltaE2000": 11,
+        "distinctness": 0,
+        "harmony": 0.627,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.52,
+        "lightnessRange": [63.6, 91.4],
+        "meanChroma": 26.8,
+        "contrastVsWhite": 1.24,
+        "contrastVsBlack": 7.46,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 1.7,
+          "protanopiaMinDeltaE": 5.7,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "021",
+      "name": "red-orange-021",
+      "colors": ["#8da1b9", "#95adb6", "#cbb3bf", "#dbc7be", "#ef959c"],
+      "coolorsUrl": "https://coolors.co/8da1b9-95adb6-cbb3bf-dbc7be-ef959c",
+      "suitable": false,
+      "scores": {
+        "composite": 0.35,
+        "minDeltaE2000": 8.1,
+        "distinctness": 0,
+        "harmony": 0.721,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.371,
+        "lightnessRange": [65.5, 81.6],
+        "meanChroma": 16.2,
+        "contrastVsWhite": 1.62,
+        "contrastVsBlack": 7.93,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 5.7,
+          "protanopiaMinDeltaE": 3.5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "022",
+      "name": "magenta-violet-022",
+      "colors": ["#d782ba", "#e18ad4", "#eeb1d5", "#efc7e5", "#e0efda"],
+      "coolorsUrl": "https://coolors.co/d782ba-e18ad4-eeb1d5-efc7e5-e0efda",
+      "suitable": false,
+      "scores": {
+        "composite": 0.35,
+        "minDeltaE2000": 5,
+        "distinctness": 0,
+        "harmony": 0.575,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.565,
+        "lightnessRange": [64.9, 92.9],
+        "meanChroma": 31.2,
+        "contrastVsWhite": 1.2,
+        "contrastVsBlack": 7.79,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 3.6,
+          "protanopiaMinDeltaE": 4.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "023",
+      "name": "indigo-pink-023",
+      "colors": ["#cfd4c5", "#eecfd4", "#efb9cb", "#e6adec", "#c287e8"],
+      "coolorsUrl": "https://coolors.co/cfd4c5-eecfd4-efb9cb-e6adec-c287e8",
+      "suitable": false,
+      "scores": {
+        "composite": 0.349,
+        "minDeltaE2000": 8.2,
+        "distinctness": 0,
+        "harmony": 0.643,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.473,
+        "lightnessRange": [65.5, 85.8],
+        "meanChroma": 27.6,
+        "contrastVsWhite": 1.45,
+        "contrastVsBlack": 7.92,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 3.6,
+          "protanopiaMinDeltaE": 6.1,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "024",
+      "name": "cyan-magenta-024",
+      "colors": ["#a80874", "#b7fdfe", "#5ef38c", "#2b9720", "#343a1a"],
+      "coolorsUrl": "https://coolors.co/a80874-b7fdfe-5ef38c-2b9720-343a1a",
+      "suitable": false,
+      "scores": {
+        "composite": 0.347,
+        "minDeltaE2000": 24.9,
+        "distinctness": 0.075,
+        "harmony": 0.457,
+        "lightnessBalance": 0.181,
+        "chromaBalance": 0.769,
+        "lightnessRange": [23.1, 94.9],
+        "meanChroma": 50.8,
+        "contrastVsWhite": 1.14,
+        "contrastVsBlack": 1.77,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 24.5,
+          "protanopiaMinDeltaE": 24.5,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "025",
+      "name": "indigo-magenta-025",
+      "colors": ["#390099", "#9e0059", "#ff0054", "#ff5400", "#ffbd00"],
+      "coolorsUrl": "https://coolors.co/390099-9e0059-ff0054-ff5400-ffbd00",
+      "suitable": true,
+      "scores": {
+        "composite": 0.338,
+        "minDeltaE2000": 22.5,
+        "distinctness": 0.014,
+        "harmony": 0.61,
+        "lightnessBalance": 0.448,
+        "chromaBalance": 0.898,
+        "lightnessRange": [20.7, 80.5],
+        "meanChroma": 82.4,
+        "contrastVsWhite": 1.68,
+        "contrastVsBlack": 1.63,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.8,
+          "protanopiaMinDeltaE": 12,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "026",
+      "name": "sky-sky-026",
+      "colors": ["#bd9391", "#adbabd", "#91b7c7", "#6eb4d1", "#6cbeed"],
+      "coolorsUrl": "https://coolors.co/bd9391-adbabd-91b7c7-6eb4d1-6cbeed",
+      "suitable": false,
+      "scores": {
+        "composite": 0.336,
+        "minDeltaE2000": 5.4,
+        "distinctness": 0,
+        "harmony": 0.61,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.423,
+        "lightnessRange": [64.7, 74.6],
+        "meanChroma": 19.3,
+        "contrastVsWhite": 1.99,
+        "contrastVsBlack": 7.75,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 5,
+          "protanopiaMinDeltaE": 5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "027",
+      "name": "red-sky-027",
+      "colors": ["#52489c", "#4062bb", "#59c3c3", "#ebebeb", "#f45b69"],
+      "coolorsUrl": "https://coolors.co/52489c-4062bb-59c3c3-ebebeb-f45b69",
+      "suitable": false,
+      "scores": {
+        "composite": 0.326,
+        "minDeltaE2000": 11.3,
+        "distinctness": 0,
+        "harmony": 0.785,
+        "lightnessBalance": 0.502,
+        "chromaBalance": 0.622,
+        "lightnessRange": [35.7, 93],
+        "meanChroma": 40.3,
+        "contrastVsWhite": 1.19,
+        "contrastVsBlack": 2.77,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 6.2,
+          "protanopiaMinDeltaE": 8.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "028",
+      "name": "green-teal-028",
+      "colors": ["#7cea9c", "#55d6be", "#2e5eaa", "#5b4e77", "#593959"],
+      "coolorsUrl": "https://coolors.co/7cea9c-55d6be-2e5eaa-5b4e77-593959",
+      "suitable": false,
+      "scores": {
+        "composite": 0.32,
+        "minDeltaE2000": 9.2,
+        "distinctness": 0,
+        "harmony": 0.681,
+        "lightnessBalance": 0.535,
+        "chromaBalance": 0.694,
+        "lightnessRange": [28.8, 84.8],
+        "meanChroma": 38.8,
+        "contrastVsWhite": 1.49,
+        "contrastVsBlack": 2.15,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 7.4,
+          "protanopiaMinDeltaE": 7.4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "029",
+      "name": "red-red-029",
+      "colors": ["#a2666f", "#f49390", "#f45866", "#c45ab3", "#631a86"],
+      "coolorsUrl": "https://coolors.co/a2666f-f49390-f45866-c45ab3-631a86",
+      "suitable": true,
+      "scores": {
+        "composite": 0.317,
+        "minDeltaE2000": 12.4,
+        "distinctness": 0,
+        "harmony": 0.314,
+        "lightnessBalance": 0.802,
+        "chromaBalance": 0.853,
+        "lightnessRange": [27.1, 71],
+        "meanChroma": 51.7,
+        "contrastVsWhite": 2.23,
+        "contrastVsBlack": 2.02,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.2,
+          "protanopiaMinDeltaE": 9.8,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "030",
+      "name": "magenta-orange-030",
+      "colors": ["#efbc9b", "#ee92c2", "#9d6a89", "#725d68", "#a8b4a5"],
+      "coolorsUrl": "https://coolors.co/efbc9b-ee92c2-9d6a89-725d68-a8b4a5",
+      "suitable": true,
+      "scores": {
+        "composite": 0.317,
+        "minDeltaE2000": 13.1,
+        "distinctness": 0,
+        "harmony": 0.501,
+        "lightnessBalance": 0.93,
+        "chromaBalance": 0.463,
+        "lightnessRange": [41.9, 80],
+        "meanChroma": 23.4,
+        "contrastVsWhite": 1.7,
+        "contrastVsBlack": 3.48,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 10.4,
+          "protanopiaMinDeltaE": 9.5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "031",
+      "name": "red-red-031",
+      "colors": ["#ffffff", "#ffcad4", "#b0d0d3", "#c08497", "#f7af9d"],
+      "coolorsUrl": "https://coolors.co/ffffff-ffcad4-b0d0d3-c08497-f7af9d",
+      "suitable": false,
+      "scores": {
+        "composite": 0.316,
+        "minDeltaE2000": 12.7,
+        "distinctness": 0,
+        "harmony": 0.596,
+        "lightnessBalance": 0.925,
+        "chromaBalance": 0.387,
+        "lightnessRange": [61.6, 100],
+        "meanChroma": 17.7,
+        "contrastVsWhite": 1,
+        "contrastVsBlack": 6.99,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 8.6,
+          "protanopiaMinDeltaE": 2.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "032",
+      "name": "cyan-sky-032",
+      "colors": ["#cdf7f6", "#8fb8de", "#9a94bc", "#9b5094", "#6a605c"],
+      "coolorsUrl": "https://coolors.co/cdf7f6-8fb8de-9a94bc-9b5094-6a605c",
+      "suitable": false,
+      "scores": {
+        "composite": 0.314,
+        "minDeltaE2000": 17.7,
+        "distinctness": 0,
+        "harmony": 0.794,
+        "lightnessBalance": 0.604,
+        "chromaBalance": 0.433,
+        "lightnessRange": [41.5, 94.4],
+        "meanChroma": 22.6,
+        "contrastVsWhite": 1.15,
+        "contrastVsBlack": 3.44,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 7.7,
+          "protanopiaMinDeltaE": 9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "033",
+      "name": "teal-blue-033",
+      "colors": ["#ea638c", "#b33c86", "#190e4f", "#03012c", "#002a22"],
+      "coolorsUrl": "https://coolors.co/ea638c-b33c86-190e4f-03012c-002a22",
+      "suitable": false,
+      "scores": {
+        "composite": 0.313,
+        "minDeltaE2000": 8.4,
+        "distinctness": 0,
+        "harmony": 0.685,
+        "lightnessBalance": 0.485,
+        "chromaBalance": 0.69,
+        "lightnessRange": [2, 60.2],
+        "meanChroma": 40.8,
+        "contrastVsWhite": 3.15,
+        "contrastVsBlack": 1.04,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 7,
+          "protanopiaMinDeltaE": 7.2,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "034",
+      "name": "teal-red-034",
+      "colors": ["#bac1b8", "#58a4b0", "#0c7c59", "#2b303a", "#d64933"],
+      "coolorsUrl": "https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933",
+      "suitable": true,
+      "scores": {
+        "composite": 0.312,
+        "minDeltaE2000": 20.4,
+        "distinctness": 0,
+        "harmony": 0.824,
+        "lightnessBalance": 0.499,
+        "chromaBalance": 0.447,
+        "lightnessRange": [19.8, 77.3],
+        "meanChroma": 29,
+        "contrastVsWhite": 1.84,
+        "contrastVsBlack": 1.59,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 19.8,
+          "protanopiaMinDeltaE": 9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "035",
+      "name": "teal-green-035",
+      "colors": ["#aeffd8", "#8affc1", "#8fdc97", "#ac8887", "#9f4a54"],
+      "coolorsUrl": "https://coolors.co/aeffd8-8affc1-8fdc97-ac8887-9f4a54",
+      "suitable": false,
+      "scores": {
+        "composite": 0.31,
+        "minDeltaE2000": 6,
+        "distinctness": 0,
+        "harmony": 0.579,
+        "lightnessBalance": 0.634,
+        "chromaBalance": 0.661,
+        "lightnessRange": [42.6, 94.1],
+        "meanChroma": 36.8,
+        "contrastVsWhite": 1.16,
+        "contrastVsBlack": 3.58,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 5.2,
+          "protanopiaMinDeltaE": 5.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "036",
+      "name": "red-amber-036",
+      "colors": ["#333333", "#666a86", "#95b8d1", "#e8ddb5", "#edafb8"],
+      "coolorsUrl": "https://coolors.co/333333-666a86-95b8d1-e8ddb5-edafb8",
+      "suitable": true,
+      "scores": {
+        "composite": 0.309,
+        "minDeltaE2000": 23.2,
+        "distinctness": 0.032,
+        "harmony": 0.9,
+        "lightnessBalance": 0.293,
+        "chromaBalance": 0.384,
+        "lightnessRange": [21.2, 88.1],
+        "meanChroma": 15.9,
+        "contrastVsWhite": 1.36,
+        "contrastVsBlack": 1.66,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 11,
+          "protanopiaMinDeltaE": 11.4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "037",
+      "name": "orange-red-037",
+      "colors": ["#f4f1de", "#e07a5f", "#3d405b", "#81b29a", "#f2cc8f"],
+      "coolorsUrl": "https://coolors.co/f4f1de-e07a5f-3d405b-81b29a-f2cc8f",
+      "suitable": false,
+      "scores": {
+        "composite": 0.306,
+        "minDeltaE2000": 16.1,
+        "distinctness": 0,
+        "harmony": 0.795,
+        "lightnessBalance": 0.288,
+        "chromaBalance": 0.5,
+        "lightnessRange": [27.9, 94.9],
+        "meanChroma": 26.9,
+        "contrastVsWhite": 1.14,
+        "contrastVsBlack": 2.08,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 14.5,
+          "protanopiaMinDeltaE": 13.8,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "038",
+      "name": "amber-red-038",
+      "colors": ["#e4572e", "#f0f66e", "#f0f8ea", "#a8c686", "#9d9c62"],
+      "coolorsUrl": "https://coolors.co/e4572e-f0f66e-f0f8ea-a8c686-9d9c62",
+      "suitable": false,
+      "scores": {
+        "composite": 0.304,
+        "minDeltaE2000": 13.1,
+        "distinctness": 0,
+        "harmony": 0.354,
+        "lightnessBalance": 0.865,
+        "chromaBalance": 0.651,
+        "lightnessRange": [55.6, 96.7],
+        "meanChroma": 43,
+        "contrastVsWhite": 1.09,
+        "contrastVsBlack": 5.7,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.1,
+          "protanopiaMinDeltaE": 11,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "039",
+      "name": "teal-teal-039",
+      "colors": ["#a0ecd0", "#94ddbc", "#88bb92", "#7b886b", "#714955"],
+      "coolorsUrl": "https://coolors.co/a0ecd0-94ddbc-88bb92-7b886b-714955",
+      "suitable": false,
+      "scores": {
+        "composite": 0.301,
+        "minDeltaE2000": 3.9,
+        "distinctness": 0,
+        "harmony": 0.629,
+        "lightnessBalance": 0.62,
+        "chromaBalance": 0.548,
+        "lightnessRange": [35.9, 88],
+        "meanChroma": 25.4,
+        "contrastVsWhite": 1.36,
+        "contrastVsBlack": 2.79,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 4.2,
+          "protanopiaMinDeltaE": 4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "040",
+      "name": "green-indigo-040",
+      "colors": ["#54428e", "#8963ba", "#afe3c0", "#90c290", "#688b58"],
+      "coolorsUrl": "https://coolors.co/54428e-8963ba-afe3c0-90c290-688b58",
+      "suitable": false,
+      "scores": {
+        "composite": 0.3,
+        "minDeltaE2000": 9.5,
+        "distinctness": 0,
+        "harmony": 0.474,
+        "lightnessBalance": 0.611,
+        "chromaBalance": 0.707,
+        "lightnessRange": [33.4, 85.9],
+        "meanChroma": 38.4,
+        "contrastVsWhite": 1.44,
+        "contrastVsBlack": 2.55,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.8,
+          "protanopiaMinDeltaE": 9.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "041",
+      "name": "sky-cyan-041",
+      "colors": ["#a8e0ff", "#8ee3f5", "#70cad1", "#3e517a", "#b08ea2"],
+      "coolorsUrl": "https://coolors.co/a8e0ff-8ee3f5-70cad1-3e517a-b08ea2",
+      "suitable": false,
+      "scores": {
+        "composite": 0.299,
+        "minDeltaE2000": 7.6,
+        "distinctness": 0,
+        "harmony": 0.611,
+        "lightnessBalance": 0.627,
+        "chromaBalance": 0.55,
+        "lightnessRange": [34.6, 86.4],
+        "meanChroma": 24.3,
+        "contrastVsWhite": 1.42,
+        "contrastVsBlack": 2.66,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 1.8,
+          "protanopiaMinDeltaE": 2.7,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "042",
+      "name": "teal-cyan-042",
+      "colors": ["#07beb8", "#3dccc7", "#68d8d6", "#9ceaef", "#c4fff9"],
+      "coolorsUrl": "https://coolors.co/07beb8-3dccc7-68d8d6-9ceaef-c4fff9",
+      "suitable": false,
+      "scores": {
+        "composite": 0.297,
+        "minDeltaE2000": 4.1,
+        "distinctness": 0,
+        "harmony": 0.267,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.622,
+        "lightnessRange": [69.7, 96],
+        "meanChroma": 31.6,
+        "contrastVsWhite": 1.1,
+        "contrastVsBlack": 9.07,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 3.9,
+          "protanopiaMinDeltaE": 3.4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "043",
+      "name": "pink-blue-043",
+      "colors": ["#404e5c", "#4f6272", "#b7c3f3", "#dd7596", "#cf1259"],
+      "coolorsUrl": "https://coolors.co/404e5c-4f6272-b7c3f3-dd7596-cf1259",
+      "suitable": false,
+      "scores": {
+        "composite": 0.296,
+        "minDeltaE2000": 7,
+        "distinctness": 0,
+        "harmony": 0.549,
+        "lightnessBalance": 0.736,
+        "chromaBalance": 0.506,
+        "lightnessRange": [32.5, 79.4],
+        "meanChroma": 32.5,
+        "contrastVsWhite": 1.73,
+        "contrastVsBlack": 2.46,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 6.7,
+          "protanopiaMinDeltaE": 4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "044",
+      "name": "orange-amber-044",
+      "colors": ["#5a5353", "#a07178", "#e6ccbe", "#776274", "#c8cc92"],
+      "coolorsUrl": "https://coolors.co/5a5353-a07178-e6ccbe-776274-c8cc92",
+      "suitable": true,
+      "scores": {
+        "composite": 0.295,
+        "minDeltaE2000": 12.4,
+        "distinctness": 0,
+        "harmony": 0.625,
+        "lightnessBalance": 0.714,
+        "chromaBalance": 0.378,
+        "lightnessRange": [36, 83.8],
+        "meanChroma": 15.9,
+        "contrastVsWhite": 1.53,
+        "contrastVsBlack": 2.8,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.3,
+          "protanopiaMinDeltaE": 10.1,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "045",
+      "name": "sky-cyan-045",
+      "colors": ["#031a6b", "#033860", "#087ca7", "#004385", "#05b2dc"],
+      "coolorsUrl": "https://coolors.co/031a6b-033860-087ca7-004385-05b2dc",
+      "suitable": false,
+      "scores": {
+        "composite": 0.289,
+        "minDeltaE2000": 5.5,
+        "distinctness": 0,
+        "harmony": 0.443,
+        "lightnessBalance": 0.605,
+        "chromaBalance": 0.734,
+        "lightnessRange": [14.5, 67.3],
+        "meanChroma": 39.9,
+        "contrastVsWhite": 2.5,
+        "contrastVsBlack": 1.36,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 6.1,
+          "protanopiaMinDeltaE": 6.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "046",
+      "name": "sky-sky-046",
+      "colors": ["#add7f6", "#87bfff", "#3f8efc", "#2667ff", "#3b28cc"],
+      "coolorsUrl": "https://coolors.co/add7f6-87bfff-3f8efc-2667ff-3b28cc",
+      "suitable": false,
+      "scores": {
+        "composite": 0.287,
+        "minDeltaE2000": 8.4,
+        "distinctness": 0,
+        "harmony": 0.415,
+        "lightnessBalance": 0.607,
+        "chromaBalance": 0.739,
+        "lightnessRange": [31.4, 84],
+        "meanChroma": 61.5,
+        "contrastVsWhite": 1.52,
+        "contrastVsBlack": 2.36,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.6,
+          "protanopiaMinDeltaE": 8.4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "047",
+      "name": "amber-orange-047",
+      "colors": ["#574d68", "#a38560", "#c6a15b", "#f2e86d", "#d3dfb8"],
+      "coolorsUrl": "https://coolors.co/574d68-a38560-c6a15b-f2e86d-d3dfb8",
+      "suitable": false,
+      "scores": {
+        "composite": 0.284,
+        "minDeltaE2000": 11.7,
+        "distinctness": 0,
+        "harmony": 0.507,
+        "lightnessBalance": 0.534,
+        "chromaBalance": 0.573,
+        "lightnessRange": [34.7, 90.6],
+        "meanChroma": 33.2,
+        "contrastVsWhite": 1.27,
+        "contrastVsBlack": 2.67,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 11.3,
+          "protanopiaMinDeltaE": 11.5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "048",
+      "name": "red-orange-048",
+      "colors": ["#1c3144", "#d00000", "#ffba08", "#a2aebb", "#3f88c5"],
+      "coolorsUrl": "https://coolors.co/1c3144-d00000-ffba08-a2aebb-3f88c5",
+      "suitable": true,
+      "scores": {
+        "composite": 0.283,
+        "minDeltaE2000": 19.5,
+        "distinctness": 0,
+        "harmony": 0.375,
+        "lightnessBalance": 0.436,
+        "chromaBalance": 0.62,
+        "lightnessRange": [19.5, 79.8],
+        "meanChroma": 46.7,
+        "contrastVsWhite": 1.71,
+        "contrastVsBlack": 1.57,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 21.2,
+          "protanopiaMinDeltaE": 18,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "049",
+      "name": "teal-pink-049",
+      "colors": ["#664c43", "#873d48", "#dc758f", "#e3d3e4", "#00ffcd"],
+      "coolorsUrl": "https://coolors.co/664c43-873d48-dc758f-e3d3e4-00ffcd",
+      "suitable": true,
+      "scores": {
+        "composite": 0.281,
+        "minDeltaE2000": 14.1,
+        "distinctness": 0,
+        "harmony": 0.585,
+        "lightnessBalance": 0.555,
+        "chromaBalance": 0.54,
+        "lightnessRange": [34.8, 89.8],
+        "meanChroma": 32.7,
+        "contrastVsWhite": 1.3,
+        "contrastVsBlack": 2.68,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 2.4,
+          "protanopiaMinDeltaE": 5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "050",
+      "name": "red-orange-050",
+      "colors": ["#a2a79e", "#a27e8e", "#a77464", "#88292f", "#2e1e0f"],
+      "coolorsUrl": "https://coolors.co/a2a79e-a27e8e-a77464-88292f-2e1e0f",
+      "suitable": false,
+      "scores": {
+        "composite": 0.281,
+        "minDeltaE2000": 14.3,
+        "distinctness": 0,
+        "harmony": 0.626,
+        "lightnessBalance": 0.556,
+        "chromaBalance": 0.418,
+        "lightnessRange": [12.9, 67.9],
+        "meanChroma": 21.2,
+        "contrastVsWhite": 2.45,
+        "contrastVsBlack": 1.31,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 10.3,
+          "protanopiaMinDeltaE": 9.9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "051",
+      "name": "orange-pink-051",
+      "colors": ["#565264", "#706677", "#a6808c", "#ccb7ae", "#d6cfcb"],
+      "coolorsUrl": "https://coolors.co/565264-706677-a6808c-ccb7ae-d6cfcb",
+      "suitable": false,
+      "scores": {
+        "composite": 0.276,
+        "minDeltaE2000": 7.9,
+        "distinctness": 0,
+        "harmony": 0.568,
+        "lightnessBalance": 0.718,
+        "chromaBalance": 0.362,
+        "lightnessRange": [35.9, 83.6],
+        "meanChroma": 10.3,
+        "contrastVsWhite": 1.54,
+        "contrastVsBlack": 2.79,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 6.4,
+          "protanopiaMinDeltaE": 6.5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "052",
+      "name": "pink-green-052",
+      "colors": ["#3d3b8e", "#6883ba", "#f9f9f9", "#e072a4", "#b0e298"],
+      "coolorsUrl": "https://coolors.co/3d3b8e-6883ba-f9f9f9-e072a4-b0e298",
+      "suitable": false,
+      "scores": {
+        "composite": 0.275,
+        "minDeltaE2000": 24.5,
+        "distinctness": 0.065,
+        "harmony": 0.617,
+        "lightnessBalance": 0.259,
+        "chromaBalance": 0.582,
+        "lightnessRange": [29.6, 97.9],
+        "meanChroma": 35.4,
+        "contrastVsWhite": 1.05,
+        "contrastVsBlack": 2.21,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 19.6,
+          "protanopiaMinDeltaE": 7.2,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "053",
+      "name": "amber-red-053",
+      "colors": ["#9e6240", "#dea47e", "#cd4631", "#f8f2dc", "#81adc8"],
+      "coolorsUrl": "https://coolors.co/9e6240-dea47e-cd4631-f8f2dc-81adc8",
+      "suitable": false,
+      "scores": {
+        "composite": 0.272,
+        "minDeltaE2000": 13.1,
+        "distinctness": 0,
+        "harmony": 0.41,
+        "lightnessBalance": 0.712,
+        "chromaBalance": 0.554,
+        "lightnessRange": [47.5, 95.4],
+        "meanChroma": 33.4,
+        "contrastVsWhite": 1.12,
+        "contrastVsBlack": 4.27,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 6.5,
+          "protanopiaMinDeltaE": 3.4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "054",
+      "name": "green-green-054",
+      "colors": ["#e5f9e0", "#a3f7b5", "#40c9a2", "#2f9c95", "#664147"],
+      "coolorsUrl": "https://coolors.co/e5f9e0-a3f7b5-40c9a2-2f9c95-664147",
+      "suitable": false,
+      "scores": {
+        "composite": 0.27,
+        "minDeltaE2000": 14,
+        "distinctness": 0,
+        "harmony": 0.653,
+        "lightnessBalance": 0.356,
+        "chromaBalance": 0.569,
+        "lightnessRange": [31.9, 95.9],
+        "meanChroma": 31.2,
+        "contrastVsWhite": 1.11,
+        "contrastVsBlack": 2.41,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 8.1,
+          "protanopiaMinDeltaE": 9.8,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "055",
+      "name": "red-sky-055",
+      "colors": ["#403f4c", "#2c2b3c", "#1b2432", "#121420", "#b76d68"],
+      "coolorsUrl": "https://coolors.co/403f4c-2c2b3c-1b2432-121420-b76d68",
+      "suitable": false,
+      "scores": {
+        "composite": 0.269,
+        "minDeltaE2000": 5.7,
+        "distinctness": 0,
+        "harmony": 0.537,
+        "lightnessBalance": 0.724,
+        "chromaBalance": 0.355,
+        "lightnessRange": [6.6, 54],
+        "meanChroma": 14.5,
+        "contrastVsWhite": 3.89,
+        "contrastVsBlack": 1.15,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 3.1,
+          "protanopiaMinDeltaE": 2.7,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "056",
+      "name": "orange-amber-056",
+      "colors": ["#664e4c", "#c1d37f", "#e2d58b", "#f0e2a3", "#f9d4bb"],
+      "coolorsUrl": "https://coolors.co/664e4c-c1d37f-e2d58b-f0e2a3-f9d4bb",
+      "suitable": false,
+      "scores": {
+        "composite": 0.268,
+        "minDeltaE2000": 3.9,
+        "distinctness": 0,
+        "harmony": 0.497,
+        "lightnessBalance": 0.576,
+        "chromaBalance": 0.549,
+        "lightnessRange": [35.6, 89.7],
+        "meanChroma": 29.2,
+        "contrastVsWhite": 1.3,
+        "contrastVsBlack": 2.76,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 2.6,
+          "protanopiaMinDeltaE": 2,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "057",
+      "name": "pink-red-057",
+      "colors": ["#361134", "#b0228c", "#ea3788", "#e56b70", "#f391a0"],
+      "coolorsUrl": "https://coolors.co/361134-b0228c-ea3788-e56b70-f391a0",
+      "suitable": false,
+      "scores": {
+        "composite": 0.267,
+        "minDeltaE2000": 10.9,
+        "distinctness": 0,
+        "harmony": 0.281,
+        "lightnessBalance": 0.476,
+        "chromaBalance": 0.851,
+        "lightnessRange": [12.2, 70.8],
+        "meanChroma": 52,
+        "contrastVsWhite": 2.24,
+        "contrastVsBlack": 1.29,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 10.4,
+          "protanopiaMinDeltaE": 11.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "058",
+      "name": "sky-amber-058",
+      "colors": ["#ed254e", "#f9dc5c", "#c2eabd", "#011936", "#465362"],
+      "coolorsUrl": "https://coolors.co/ed254e-f9dc5c-c2eabd-011936-465362",
+      "suitable": false,
+      "scores": {
+        "composite": 0.266,
+        "minDeltaE2000": 19.9,
+        "distinctness": 0,
+        "harmony": 0.678,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.597,
+        "lightnessRange": [8.7, 88.9],
+        "meanChroma": 40.7,
+        "contrastVsWhite": 1.33,
+        "contrastVsBlack": 1.19,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 17,
+          "protanopiaMinDeltaE": 16.1,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "059",
+      "name": "orange-cyan-059",
+      "colors": ["#16697a", "#489fb5", "#82c0cc", "#ede7e3", "#ffa62b"],
+      "coolorsUrl": "https://coolors.co/16697a-489fb5-82c0cc-ede7e3-ffa62b",
+      "suitable": false,
+      "scores": {
+        "composite": 0.266,
+        "minDeltaE2000": 10.9,
+        "distinctness": 0,
+        "harmony": 0.45,
+        "lightnessBalance": 0.638,
+        "chromaBalance": 0.457,
+        "lightnessRange": [40.7, 92],
+        "meanChroma": 30,
+        "contrastVsWhite": 1.23,
+        "contrastVsBlack": 3.34,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 11.6,
+          "protanopiaMinDeltaE": 10.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "060",
+      "name": "green-green-060",
+      "colors": ["#82d173", "#abfaa9", "#95a3b3", "#4c2c69", "#42253b"],
+      "coolorsUrl": "https://coolors.co/82d173-abfaa9-95a3b3-4c2c69-42253b",
+      "suitable": false,
+      "scores": {
+        "composite": 0.265,
+        "minDeltaE2000": 10.1,
+        "distinctness": 0,
+        "harmony": 0.7,
+        "lightnessBalance": 0.168,
+        "chromaBalance": 0.595,
+        "lightnessRange": [19.2, 91.6],
+        "meanChroma": 35.7,
+        "contrastVsWhite": 1.24,
+        "contrastVsBlack": 1.56,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 10.2,
+          "protanopiaMinDeltaE": 10,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "061",
+      "name": "green-sky-061",
+      "colors": ["#283044", "#78a1bb", "#ebf5ee", "#bfa89e", "#8b786d"],
+      "coolorsUrl": "https://coolors.co/283044-78a1bb-ebf5ee-bfa89e-8b786d",
+      "suitable": false,
+      "scores": {
+        "composite": 0.264,
+        "minDeltaE2000": 16.2,
+        "distinctness": 0,
+        "harmony": 0.774,
+        "lightnessBalance": 0.096,
+        "chromaBalance": 0.358,
+        "lightnessRange": [20, 95.6],
+        "meanChroma": 11.8,
+        "contrastVsWhite": 1.12,
+        "contrastVsBlack": 1.6,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 16.1,
+          "protanopiaMinDeltaE": 16.3,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "062",
+      "name": "sky-cyan-062",
+      "colors": ["#30c5ff", "#2a2d34", "#5c946e", "#80c2af", "#a0dde6"],
+      "coolorsUrl": "https://coolors.co/30c5ff-2a2d34-5c946e-80c2af-a0dde6",
+      "suitable": true,
+      "scores": {
+        "composite": 0.263,
+        "minDeltaE2000": 13.6,
+        "distinctness": 0,
+        "harmony": 0.589,
+        "lightnessBalance": 0.311,
+        "chromaBalance": 0.482,
+        "lightnessRange": [18.4, 84.4],
+        "meanChroma": 24.9,
+        "contrastVsWhite": 1.5,
+        "contrastVsBlack": 1.52,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 13.2,
+          "protanopiaMinDeltaE": 14.2,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "063",
+      "name": "orange-amber-063",
+      "colors": ["#437c90", "#255957", "#eeebd3", "#a98743", "#f7c548"],
+      "coolorsUrl": "https://coolors.co/437c90-255957-eeebd3-a98743-f7c548",
+      "suitable": false,
+      "scores": {
+        "composite": 0.258,
+        "minDeltaE2000": 16.5,
+        "distinctness": 0,
+        "harmony": 0.357,
+        "lightnessBalance": 0.483,
+        "chromaBalance": 0.521,
+        "lightnessRange": [34.4, 92.7],
+        "meanChroma": 31.9,
+        "contrastVsWhite": 1.2,
+        "contrastVsBlack": 2.65,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 15.2,
+          "protanopiaMinDeltaE": 16.8,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "064",
+      "name": "violet-orange-064",
+      "colors": ["#12355b", "#420039", "#d72638", "#ffffff", "#ff570a"],
+      "coolorsUrl": "https://coolors.co/12355b-420039-d72638-ffffff-ff570a",
+      "suitable": false,
+      "scores": {
+        "composite": 0.258,
+        "minDeltaE2000": 19.7,
+        "distinctness": 0,
+        "harmony": 0.817,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.626,
+        "lightnessRange": [12.3, 100],
+        "meanChroma": 46.7,
+        "contrastVsWhite": 1,
+        "contrastVsBlack": 1.29,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 8.1,
+          "protanopiaMinDeltaE": 9.4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "065",
+      "name": "red-orange-065",
+      "colors": ["#a6d49f", "#9cb380", "#522a27", "#c73e1d", "#c59849"],
+      "coolorsUrl": "https://coolors.co/a6d49f-9cb380-522a27-c73e1d-c59849",
+      "suitable": false,
+      "scores": {
+        "composite": 0.256,
+        "minDeltaE2000": 9.1,
+        "distinctness": 0,
+        "harmony": 0.417,
+        "lightnessBalance": 0.483,
+        "chromaBalance": 0.668,
+        "lightnessRange": [22.3, 80.6],
+        "meanChroma": 40.5,
+        "contrastVsWhite": 1.67,
+        "contrastVsBlack": 1.72,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 7.5,
+          "protanopiaMinDeltaE": 8.1,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "066",
+      "name": "green-blue-066",
+      "colors": ["#a1e8af", "#94c595", "#747c92", "#372772", "#3a2449"],
+      "coolorsUrl": "https://coolors.co/a1e8af-94c595-747c92-372772-3a2449",
+      "suitable": false,
+      "scores": {
+        "composite": 0.256,
+        "minDeltaE2000": 8.4,
+        "distinctness": 0,
+        "harmony": 0.628,
+        "lightnessBalance": 0.275,
+        "chromaBalance": 0.593,
+        "lightnessRange": [18.6, 86.2],
+        "meanChroma": 32.1,
+        "contrastVsWhite": 1.43,
+        "contrastVsBlack": 1.53,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 7.5,
+          "protanopiaMinDeltaE": 7.9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "067",
+      "name": "red-pink-067",
+      "colors": ["#f7d1cd", "#e8c2ca", "#d1b3c4", "#b392ac", "#735d78"],
+      "coolorsUrl": "https://coolors.co/f7d1cd-e8c2ca-d1b3c4-b392ac-735d78",
+      "suitable": false,
+      "scores": {
+        "composite": 0.249,
+        "minDeltaE2000": 5.8,
+        "distinctness": 0,
+        "harmony": 0.317,
+        "lightnessBalance": 0.791,
+        "chromaBalance": 0.445,
+        "lightnessRange": [42.5, 86.9],
+        "meanChroma": 16.2,
+        "contrastVsWhite": 1.4,
+        "contrastVsBlack": 3.57,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 5.8,
+          "protanopiaMinDeltaE": 6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "068",
+      "name": "amber-sky-068",
+      "colors": ["#064789", "#427aa1", "#ebf2fa", "#679436", "#a5be00"],
+      "coolorsUrl": "https://coolors.co/064789-427aa1-ebf2fa-679436-a5be00",
+      "suitable": false,
+      "scores": {
+        "composite": 0.247,
+        "minDeltaE2000": 17,
+        "distinctness": 0,
+        "harmony": 0.361,
+        "lightnessBalance": 0.335,
+        "chromaBalance": 0.62,
+        "lightnessRange": [30.3, 95.2],
+        "meanChroma": 41.4,
+        "contrastVsWhite": 1.13,
+        "contrastVsBlack": 2.27,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 16.3,
+          "protanopiaMinDeltaE": 14.3,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "069",
+      "name": "yellow-orange-069",
+      "colors": ["#cbd4c2", "#dbebc0", "#c3b299", "#815355", "#523249"],
+      "coolorsUrl": "https://coolors.co/cbd4c2-dbebc0-c3b299-815355-523249",
+      "suitable": false,
+      "scores": {
+        "composite": 0.247,
+        "minDeltaE2000": 9,
+        "distinctness": 0,
+        "harmony": 0.649,
+        "lightnessBalance": 0.323,
+        "chromaBalance": 0.446,
+        "lightnessRange": [25.4, 90.9],
+        "meanChroma": 17.8,
+        "contrastVsWhite": 1.26,
+        "contrastVsBlack": 1.91,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 8.3,
+          "protanopiaMinDeltaE": 8.7,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "070",
+      "name": "teal-red-070",
+      "colors": ["#053225", "#e34a6f", "#f7b2bd", "#b2a198", "#60a561"],
+      "coolorsUrl": "https://coolors.co/053225-e34a6f-f7b2bd-b2a198-60a561",
+      "suitable": true,
+      "scores": {
+        "composite": 0.245,
+        "minDeltaE2000": 18.8,
+        "distinctness": 0,
+        "harmony": 0.515,
+        "lightnessBalance": 0.41,
+        "chromaBalance": 0.537,
+        "lightnessRange": [17.7, 79.2],
+        "meanChroma": 32.7,
+        "contrastVsWhite": 1.74,
+        "contrastVsBlack": 1.49,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 3.6,
+          "protanopiaMinDeltaE": 9.4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "071",
+      "name": "teal-teal-071",
+      "colors": ["#adeee3", "#86deb7", "#63b995", "#50723c", "#423e28"],
+      "coolorsUrl": "https://coolors.co/adeee3-86deb7-63b995-50723c-423e28",
+      "suitable": false,
+      "scores": {
+        "composite": 0.245,
+        "minDeltaE2000": 9.5,
+        "distinctness": 0,
+        "harmony": 0.487,
+        "lightnessBalance": 0.364,
+        "chromaBalance": 0.574,
+        "lightnessRange": [26, 89.7],
+        "meanChroma": 28.9,
+        "contrastVsWhite": 1.3,
+        "contrastVsBlack": 1.95,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.6,
+          "protanopiaMinDeltaE": 9.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "072",
+      "name": "teal-yellow-072",
+      "colors": ["#447604", "#6cc551", "#9ffcdf", "#52ad9c", "#47624f"],
+      "coolorsUrl": "https://coolors.co/447604-6cc551-9ffcdf-52ad9c-47624f",
+      "suitable": false,
+      "scores": {
+        "composite": 0.244,
+        "minDeltaE2000": 18.5,
+        "distinctness": 0,
+        "harmony": 0.015,
+        "lightnessBalance": 0.583,
+        "chromaBalance": 0.679,
+        "lightnessRange": [39, 92.7],
+        "meanChroma": 42,
+        "contrastVsWhite": 1.2,
+        "contrastVsBlack": 3.13,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 18.3,
+          "protanopiaMinDeltaE": 18.5,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "073",
+      "name": "cyan-sky-073",
+      "colors": ["#202a25", "#5f4bb6", "#86a5d9", "#26f0f1", "#c4ebc8"],
+      "coolorsUrl": "https://coolors.co/202a25-5f4bb6-86a5d9-26f0f1-c4ebc8",
+      "suitable": true,
+      "scores": {
+        "composite": 0.24,
+        "minDeltaE2000": 20.2,
+        "distinctness": 0,
+        "harmony": 0.524,
+        "lightnessBalance": 0.143,
+        "chromaBalance": 0.551,
+        "lightnessRange": [16, 89.5],
+        "meanChroma": 34,
+        "contrastVsWhite": 1.31,
+        "contrastVsBlack": 1.42,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 14.2,
+          "protanopiaMinDeltaE": 18.8,
+          "safe": true
+        }
+      }
+    },
+    {
+      "id": "074",
+      "name": "red-red-074",
+      "colors": ["#ef6351", "#f38375", "#f7a399", "#fbc3bc", "#ffe3e0"],
+      "coolorsUrl": "https://coolors.co/ef6351-f38375-f7a399-fbc3bc-ffe3e0",
+      "suitable": false,
+      "scores": {
+        "composite": 0.239,
+        "minDeltaE2000": 7.6,
+        "distinctness": 0,
+        "harmony": 0,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.593,
+        "lightnessRange": [59.8, 92.4],
+        "meanChroma": 36.3,
+        "contrastVsWhite": 1.21,
+        "contrastVsBlack": 6.57,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 6.6,
+          "protanopiaMinDeltaE": 7.5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "075",
+      "name": "red-violet-075",
+      "colors": ["#ede3e4", "#e7dfe8", "#e4dee4", "#af9fa5", "#92898a"],
+      "coolorsUrl": "https://coolors.co/ede3e4-e7dfe8-e4dee4-af9fa5-92898a",
+      "suitable": false,
+      "scores": {
+        "composite": 0.235,
+        "minDeltaE2000": 1.7,
+        "distinctness": 0,
+        "harmony": 0.136,
+        "lightnessBalance": 1,
+        "chromaBalance": 0.388,
+        "lightnessRange": [57.9, 91],
+        "meanChroma": 4.7,
+        "contrastVsWhite": 1.26,
+        "contrastVsBlack": 6.17,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 1.1,
+          "protanopiaMinDeltaE": 1.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "076",
+      "name": "orange-orange-076",
+      "colors": ["#db995a", "#654236", "#d6d4a0", "#da7635", "#e24e1b"],
+      "coolorsUrl": "https://coolors.co/db995a-654236-d6d4a0-da7635-e24e1b",
+      "suitable": false,
+      "scores": {
+        "composite": 0.234,
+        "minDeltaE2000": 10.4,
+        "distinctness": 0,
+        "harmony": 0.163,
+        "lightnessBalance": 0.616,
+        "chromaBalance": 0.725,
+        "lightnessRange": [31.6, 83.9],
+        "meanChroma": 46.8,
+        "contrastVsWhite": 1.52,
+        "contrastVsBlack": 2.39,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 4.6,
+          "protanopiaMinDeltaE": 9.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "077",
+      "name": "red-blue-077",
+      "colors": ["#f8c7cc", "#81a684", "#57886c", "#466060", "#0e0f19"],
+      "coolorsUrl": "https://coolors.co/f8c7cc-81a684-57886c-466060-0e0f19",
+      "suitable": false,
+      "scores": {
+        "composite": 0.231,
+        "minDeltaE2000": 11.3,
+        "distinctness": 0,
+        "harmony": 0.791,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.407,
+        "lightnessRange": [4.6, 84.6],
+        "meanChroma": 16.8,
+        "contrastVsWhite": 1.5,
+        "contrastVsBlack": 1.1,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 11.5,
+          "protanopiaMinDeltaE": 10.4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "078",
+      "name": "pink-pink-078",
+      "colors": ["#2f2f2f", "#dc7f9b", "#f7a1c4", "#e0b7b7", "#94bfa7"],
+      "coolorsUrl": "https://coolors.co/2f2f2f-dc7f9b-f7a1c4-e0b7b7-94bfa7",
+      "suitable": false,
+      "scores": {
+        "composite": 0.23,
+        "minDeltaE2000": 9.6,
+        "distinctness": 0,
+        "harmony": 0.472,
+        "lightnessBalance": 0.477,
+        "chromaBalance": 0.429,
+        "lightnessRange": [19.4, 78],
+        "meanChroma": 22.5,
+        "contrastVsWhite": 1.81,
+        "contrastVsBlack": 1.57,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 4.4,
+          "protanopiaMinDeltaE": 5.7,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "079",
+      "name": "red-red-079",
+      "colors": ["#090809", "#f40000", "#f44e3f", "#f4796b", "#f4998d"],
+      "coolorsUrl": "https://coolors.co/090809-f40000-f44e3f-f4796b-f4998d",
+      "suitable": false,
+      "scores": {
+        "composite": 0.229,
+        "minDeltaE2000": 7.7,
+        "distinctness": 0,
+        "harmony": 0.454,
+        "lightnessBalance": 0.224,
+        "chromaBalance": 0.696,
+        "lightnessRange": [2.3, 72.2],
+        "meanChroma": 54.3,
+        "contrastVsWhite": 2.15,
+        "contrastVsBlack": 1.05,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 5.5,
+          "protanopiaMinDeltaE": 8.5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "080",
+      "name": "orange-sky-080",
+      "colors": ["#2b4162", "#385f71", "#f5f0f6", "#d7b377", "#8f754f"],
+      "coolorsUrl": "https://coolors.co/2b4162-385f71-f5f0f6-d7b377-8f754f",
+      "suitable": false,
+      "scores": {
+        "composite": 0.228,
+        "minDeltaE2000": 13.9,
+        "distinctness": 0,
+        "harmony": 0.579,
+        "lightnessBalance": 0.265,
+        "chromaBalance": 0.436,
+        "lightnessRange": [27.2, 95.3],
+        "meanChroma": 20.7,
+        "contrastVsWhite": 1.12,
+        "contrastVsBlack": 2.04,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.4,
+          "protanopiaMinDeltaE": 10.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "081",
+      "name": "amber-yellow-081",
+      "colors": ["#644536", "#b2675e", "#c4a381", "#bbd686", "#eef1bd"],
+      "coolorsUrl": "https://coolors.co/644536-b2675e-c4a381-bbd686-eef1bd",
+      "suitable": false,
+      "scores": {
+        "composite": 0.227,
+        "minDeltaE2000": 10.7,
+        "distinctness": 0,
+        "harmony": 0.368,
+        "lightnessBalance": 0.412,
+        "chromaBalance": 0.579,
+        "lightnessRange": [32.3, 93.8],
+        "meanChroma": 29,
+        "contrastVsWhite": 1.17,
+        "contrastVsBlack": 2.45,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9,
+          "protanopiaMinDeltaE": 9.1,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "082",
+      "name": "sky-blue-082",
+      "colors": ["#a0ddff", "#758ecd", "#c1cefe", "#7189ff", "#624cab"],
+      "coolorsUrl": "https://coolors.co/a0ddff-758ecd-c1cefe-7189ff-624cab",
+      "suitable": false,
+      "scores": {
+        "composite": 0.224,
+        "minDeltaE2000": 6.2,
+        "distinctness": 0,
+        "harmony": 0.027,
+        "lightnessBalance": 0.753,
+        "chromaBalance": 0.703,
+        "lightnessRange": [39.1, 85.2],
+        "meanChroma": 42.3,
+        "contrastVsWhite": 1.47,
+        "contrastVsBlack": 3.14,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 0.8,
+          "protanopiaMinDeltaE": 3.2,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "083",
+      "name": "cyan-blue-083",
+      "colors": ["#320e3b", "#e56399", "#7f96ff", "#a6cfd5", "#dbfcff"],
+      "coolorsUrl": "https://coolors.co/320e3b-e56399-7f96ff-a6cfd5-dbfcff",
+      "suitable": false,
+      "scores": {
+        "composite": 0.222,
+        "minDeltaE2000": 10.6,
+        "distinctness": 0,
+        "harmony": 0.633,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.562,
+        "lightnessRange": [11.3, 96.8],
+        "meanChroma": 34.6,
+        "contrastVsWhite": 1.08,
+        "contrastVsBlack": 1.26,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 10.8,
+          "protanopiaMinDeltaE": 10.2,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "084",
+      "name": "green-magenta-084",
+      "colors": ["#8aea92", "#80ada0", "#5f5566", "#33202a", "#000000"],
+      "coolorsUrl": "https://coolors.co/8aea92-80ada0-5f5566-33202a-000000",
+      "suitable": false,
+      "scores": {
+        "composite": 0.202,
+        "minDeltaE2000": 15.3,
+        "distinctness": 0,
+        "harmony": 0.716,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.339,
+        "lightnessRange": [0, 85.2],
+        "meanChroma": 19.6,
+        "contrastVsWhite": 1.47,
+        "contrastVsBlack": 1,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.7,
+          "protanopiaMinDeltaE": 9.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "085",
+      "name": "violet-yellow-085",
+      "colors": ["#351431", "#775253", "#bdc696", "#d1d3c4", "#dfe0dc"],
+      "coolorsUrl": "https://coolors.co/351431-775253-bdc696-d1d3c4-dfe0dc",
+      "suitable": false,
+      "scores": {
+        "composite": 0.189,
+        "minDeltaE2000": 6,
+        "distinctness": 0,
+        "harmony": 0.612,
+        "lightnessBalance": 0.077,
+        "chromaBalance": 0.369,
+        "lightnessRange": [12.5, 89],
+        "meanChroma": 15.3,
+        "contrastVsWhite": 1.33,
+        "contrastVsBlack": 1.3,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 5.5,
+          "protanopiaMinDeltaE": 5.7,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "086",
+      "name": "cyan-blue-086",
+      "colors": ["#000000", "#2f4550", "#586f7c", "#b8dbd9", "#f4f4f9"],
+      "coolorsUrl": "https://coolors.co/000000-2f4550-586f7c-b8dbd9-f4f4f9",
+      "suitable": false,
+      "scores": {
+        "composite": 0.189,
+        "minDeltaE2000": 14.8,
+        "distinctness": 0,
+        "harmony": 0.677,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.355,
+        "lightnessRange": [0, 96.3],
+        "meanChroma": 7.3,
+        "contrastVsWhite": 1.1,
+        "contrastVsBlack": 1,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 7.7,
+          "protanopiaMinDeltaE": 6.5,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "087",
+      "name": "cyan-red-087",
+      "colors": ["#adfcf9", "#89a894", "#4b644a", "#49393b", "#341c1c"],
+      "coolorsUrl": "https://coolors.co/adfcf9-89a894-4b644a-49393b-341c1c",
+      "suitable": false,
+      "scores": {
+        "composite": 0.174,
+        "minDeltaE2000": 9.6,
+        "distinctness": 0,
+        "harmony": 0.541,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.41,
+        "lightnessRange": [13.5, 94],
+        "meanChroma": 16.2,
+        "contrastVsWhite": 1.16,
+        "contrastVsBlack": 1.33,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 8.9,
+          "protanopiaMinDeltaE": 9.1,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "088",
+      "name": "orange-red-088",
+      "colors": ["#3a405a", "#f9dec9", "#99b2dd", "#e9afa3", "#685044"],
+      "coolorsUrl": "https://coolors.co/3a405a-f9dec9-99b2dd-e9afa3-685044",
+      "suitable": true,
+      "scores": {
+        "composite": 0.173,
+        "minDeltaE2000": 14.6,
+        "distinctness": 0,
+        "harmony": 0.214,
+        "lightnessBalance": 0.388,
+        "chromaBalance": 0.462,
+        "lightnessRange": [27.6, 90.1],
+        "meanChroma": 18.9,
+        "contrastVsWhite": 1.29,
+        "contrastVsBlack": 2.06,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 8.6,
+          "protanopiaMinDeltaE": 10.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "089",
+      "name": "amber-pink-089",
+      "colors": ["#ffc6d9", "#ffe1c6", "#fff7ae", "#48284a", "#916c80"],
+      "coolorsUrl": "https://coolors.co/ffc6d9-ffe1c6-fff7ae-48284a-916c80",
+      "suitable": false,
+      "scores": {
+        "composite": 0.168,
+        "minDeltaE2000": 15.5,
+        "distinctness": 0,
+        "harmony": 0.342,
+        "lightnessBalance": 0.116,
+        "chromaBalance": 0.529,
+        "lightnessRange": [21.5, 96.3],
+        "meanChroma": 24.6,
+        "contrastVsWhite": 1.1,
+        "contrastVsBlack": 1.68,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 8.5,
+          "protanopiaMinDeltaE": 10.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "090",
+      "name": "orange-orange-090",
+      "colors": ["#d8cbc7", "#cc3f0c", "#9a6d38", "#33673b", "#19231a"],
+      "coolorsUrl": "https://coolors.co/d8cbc7-cc3f0c-9a6d38-33673b-19231a",
+      "suitable": false,
+      "scores": {
+        "composite": 0.155,
+        "minDeltaE2000": 19.1,
+        "distinctness": 0,
+        "harmony": 0.251,
+        "lightnessBalance": 0.22,
+        "chromaBalance": 0.478,
+        "lightnessRange": [12.5, 82.6],
+        "meanChroma": 32.7,
+        "contrastVsWhite": 1.58,
+        "contrastVsBlack": 1.3,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 6.6,
+          "protanopiaMinDeltaE": 7.9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "091",
+      "name": "orange-orange-091",
+      "colors": ["#bbd8b3", "#f3b61f", "#a29f15", "#510d0a", "#191102"],
+      "coolorsUrl": "https://coolors.co/bbd8b3-f3b61f-a29f15-510d0a-191102",
+      "suitable": false,
+      "scores": {
+        "composite": 0.153,
+        "minDeltaE2000": 18.1,
+        "distinctness": 0,
+        "harmony": 0.268,
+        "lightnessBalance": 0.047,
+        "chromaBalance": 0.615,
+        "lightnessRange": [5.5, 83.4],
+        "meanChroma": 41.6,
+        "contrastVsWhite": 1.55,
+        "contrastVsBlack": 1.12,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 12.1,
+          "protanopiaMinDeltaE": 5.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "092",
+      "name": "red-orange-092",
+      "colors": ["#220901", "#621708", "#941b0c", "#bc3908", "#f6aa1c"],
+      "coolorsUrl": "https://coolors.co/220901-621708-941b0c-bc3908-f6aa1c",
+      "suitable": false,
+      "scores": {
+        "composite": 0.151,
+        "minDeltaE2000": 10.1,
+        "distinctness": 0,
+        "harmony": 0,
+        "lightnessBalance": 0.217,
+        "chromaBalance": 0.789,
+        "lightnessRange": [4.9, 75.1],
+        "meanChroma": 53.7,
+        "contrastVsWhite": 1.97,
+        "contrastVsBlack": 1.11,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 10.6,
+          "protanopiaMinDeltaE": 7.4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "093",
+      "name": "sky-cyan-093",
+      "colors": ["#0b132b", "#1c2541", "#3a506b", "#5bc0be", "#ffffff"],
+      "coolorsUrl": "https://coolors.co/0b132b-1c2541-3a506b-5bc0be-ffffff",
+      "suitable": false,
+      "scores": {
+        "composite": 0.149,
+        "minDeltaE2000": 5.7,
+        "distinctness": 0,
+        "harmony": 0.451,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.393,
+        "lightnessRange": [6.4, 100],
+        "meanChroma": 17.4,
+        "contrastVsWhite": 1,
+        "contrastVsBlack": 1.14,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 5.6,
+          "protanopiaMinDeltaE": 5.8,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "094",
+      "name": "orange-orange-094",
+      "colors": ["#001b2e", "#294c60", "#adb6c4", "#ffefd3", "#ffc49b"],
+      "coolorsUrl": "https://coolors.co/001b2e-294c60-adb6c4-ffefd3-ffc49b",
+      "suitable": false,
+      "scores": {
+        "composite": 0.147,
+        "minDeltaE2000": 14.8,
+        "distinctness": 0,
+        "harmony": 0.382,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.415,
+        "lightnessRange": [8.8, 95],
+        "meanChroma": 17.8,
+        "contrastVsWhite": 1.13,
+        "contrastVsBlack": 1.2,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.6,
+          "protanopiaMinDeltaE": 10.3,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "095",
+      "name": "red-pink-095",
+      "colors": ["#fde8e9", "#e3bac6", "#bc9ec1", "#596475", "#1f2232"],
+      "coolorsUrl": "https://coolors.co/fde8e9-e3bac6-bc9ec1-596475-1f2232",
+      "suitable": false,
+      "scores": {
+        "composite": 0.145,
+        "minDeltaE2000": 11.6,
+        "distinctness": 0,
+        "harmony": 0.411,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.381,
+        "lightnessRange": [13.6, 93.7],
+        "meanChroma": 13.8,
+        "contrastVsWhite": 1.17,
+        "contrastVsBlack": 1.33,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.1,
+          "protanopiaMinDeltaE": 10.6,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "096",
+      "name": "red-orange-096",
+      "colors": ["#0a0903", "#ff0000", "#ff8200", "#ffc100", "#ffeaae"],
+      "coolorsUrl": "https://coolors.co/0a0903-ff0000-ff8200-ffc100-ffeaae",
+      "suitable": false,
+      "scores": {
+        "composite": 0.138,
+        "minDeltaE2000": 17.1,
+        "distinctness": 0,
+        "harmony": 0.172,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.661,
+        "lightnessRange": [2.4, 93.1],
+        "meanChroma": 61.6,
+        "contrastVsWhite": 1.19,
+        "contrastVsBlack": 1.05,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 8.9,
+          "protanopiaMinDeltaE": 13.9,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "097",
+      "name": "violet-blue-097",
+      "colors": ["#efe9e7", "#dae0f2", "#f9cff2", "#52154e", "#111344"],
+      "coolorsUrl": "https://coolors.co/efe9e7-dae0f2-f9cff2-52154e-111344",
+      "suitable": false,
+      "scores": {
+        "composite": 0.126,
+        "minDeltaE2000": 9.7,
+        "distinctness": 0,
+        "harmony": 0.312,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.426,
+        "lightnessRange": [9, 92.8],
+        "meanChroma": 22.5,
+        "contrastVsWhite": 1.2,
+        "contrastVsBlack": 1.2,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 0.5,
+          "protanopiaMinDeltaE": 4,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "098",
+      "name": "teal-green-098",
+      "colors": ["#dee5e5", "#9dc5bb", "#17b890", "#5e807f", "#082d0f"],
+      "coolorsUrl": "https://coolors.co/dee5e5-9dc5bb-17b890-5e807f-082d0f",
+      "suitable": true,
+      "scores": {
+        "composite": 0.112,
+        "minDeltaE2000": 15.4,
+        "distinctness": 0,
+        "harmony": 0.151,
+        "lightnessBalance": 0.108,
+        "chromaBalance": 0.395,
+        "lightnessRange": [15.3, 90.4],
+        "meanChroma": 21,
+        "contrastVsWhite": 1.28,
+        "contrastVsBlack": 1.39,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 9.8,
+          "protanopiaMinDeltaE": 9.2,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "099",
+      "name": "sky-indigo-099",
+      "colors": ["#1b1725", "#534b62", "#a499b3", "#d0bcd5", "#226ce0"],
+      "coolorsUrl": "https://coolors.co/1b1725-534b62-a499b3-d0bcd5-226ce0",
+      "suitable": false,
+      "scores": {
+        "composite": 0.105,
+        "minDeltaE2000": 10.8,
+        "distinctness": 0,
+        "harmony": 0,
+        "lightnessBalance": 0.228,
+        "chromaBalance": 0.399,
+        "lightnessRange": [8.8, 78.6],
+        "meanChroma": 24.9,
+        "contrastVsWhite": 1.77,
+        "contrastVsBlack": 1.2,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 10.6,
+          "protanopiaMinDeltaE": 10.2,
+          "safe": false
+        }
+      }
+    },
+    {
+      "id": "100",
+      "name": "orange-red-100",
+      "colors": ["#e54b4b", "#ffa987", "#f7ebe8", "#444140", "#1e1e24"],
+      "coolorsUrl": "https://coolors.co/e54b4b-ffa987-f7ebe8-444140-1e1e24",
+      "suitable": false,
+      "scores": {
+        "composite": 0.099,
+        "minDeltaE2000": 12.2,
+        "distinctness": 0,
+        "harmony": 0.134,
+        "lightnessBalance": 0,
+        "chromaBalance": 0.344,
+        "lightnessRange": [11.5, 93.9],
+        "meanChroma": 24,
+        "contrastVsWhite": 1.17,
+        "contrastVsBlack": 1.27,
+        "cvd": {
+          "deuteranopiaMinDeltaE": 12.4,
+          "protanopiaMinDeltaE": 12,
+          "safe": false
+        }
+      }
+    }
+  ]
+}

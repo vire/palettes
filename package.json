@@ -1,0 +1,25 @@
+{
+  "name": "data-viz-palettes",
+  "version": "1.0.0",
+  "description": "100 categorical 5-colour palettes sourced from coolors.co and scored for data-visualisation suitability (distinctness, harmony, lightness/chroma balance, colourblind-safety).",
+  "type": "module",
+  "license": "MIT",
+  "author": "Viliam Elischer",
+  "scripts": {
+    "build": "node build-palettes-preview.mjs",
+    "preview": "open palettes-preview.html"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "data-visualization",
+    "categorical",
+    "ciede2000",
+    "colorblind",
+    "coolors"
+  ],
+  "files": [
+    "data-viz-palettes.json",
+    "build-palettes-preview.mjs"
+  ]
+}
