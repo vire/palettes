@@ -19,7 +19,7 @@ balance, and colourblind-safety.
 | File | What it is |
 |---|---|
 | `data-viz-palettes.json` | The dataset — 100 palettes with colours, names, and full scores. |
-| `palettes-preview.html` | Self-contained browser (data embedded; opens straight from `file://`). |
+| `index.html` | Self-contained browser (data embedded; opens straight from `file://`). |
 | `build-palettes-preview.mjs` | Regenerates the preview HTML from the JSON. |
 
 ## Use it
@@ -29,8 +29,8 @@ against dark / light / grey backgrounds — each card includes a mini bar + scat
 built from the palette's own colours so you can judge it as real data viz:
 
 ```bash
-npm run preview      # macOS: opens palettes-preview.html
-# or just open palettes-preview.html in any browser
+npm run preview      # macOS: opens index.html
+# or just open index.html in any browser
 ```
 
 Consume the data programmatically:

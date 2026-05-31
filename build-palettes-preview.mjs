@@ -166,7 +166,7 @@ render();
 </body>
 </html>`;
 
-writeFileSync(new URL('./palettes-preview.html', import.meta.url), html);
+writeFileSync(new URL('./index.html', import.meta.url), html);
 console.log(
-  'Wrote palettes-preview.html (' + (html.length / 1024).toFixed(1) + ' KB)',
+  'Wrote index.html (' + (html.length / 1024).toFixed(1) + ' KB)',
 );

@@ -7,7 +7,7 @@
   "author": "Viliam Elischer",
   "scripts": {
     "build": "node build-palettes-preview.mjs",
-    "preview": "open palettes-preview.html"
+    "preview": "open index.html"
   },
   "keywords": [
     "color",
