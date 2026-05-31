@@ -92,6 +92,31 @@ npm run build        # node build-palettes-preview.mjs  (bun run build also work
 }
 ```
 
+## How these palettes were made
+
+`data-viz-palettes.json` is the output of a one-off **generate-then-score** pass
+(run `2026-05-30`). The generator script itself isn't committed — these are the
+steps it ran:
+
+1. **Generate** — drove [`coolors.co/generate`](https://coolors.co/generate), which
+   emits random 5-colour palettes, and read each palette's five hex codes straight
+   from coolors' own URL (`coolors.co/<hex>-<hex>-…`, which the generator rewrites
+   live on every spin). 100 palettes were collected; each row keeps its original
+   `coolorsUrl` so any palette can be reopened in coolors.
+2. **Score** — each palette was measured offline in CIELAB on five axes
+   (`distinctness`, `harmony`, `lightnessBalance`, `chromaBalance`, `cvd`). See
+   [How the scores work](#how-the-scores-work) below for what each axis means and how
+   the colourblind (`cvd`) simulation is done.
+3. **Gate** — a palette is flagged `suitable` when `minDeltaE2000 ≥ 12` **and** every
+   colour's CIELAB L\* lands in `[15, 92]` — no near-duplicate colours, nothing washing
+   out to near-white or near-black. These thresholds are recorded in
+   `suitabilityFloors` in the JSON.
+4. **Rank** — palettes are sorted best-first by the weighted `composite` score
+   (`0.40·distinctness + 0.20·harmony + 0.15·lightness + 0.15·chroma + 0.10·cvd`).
+
+The `criteria`, `suitabilityFloors`, counts, and `generatedAt` timestamp at the top of
+the JSON describe this run, so the dataset documents its own provenance.
+
 ## How the scores work
 
 | Score | Meaning |
